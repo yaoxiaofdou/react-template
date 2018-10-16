@@ -1,17 +1,15 @@
 import React, { Component } from 'react';
-import './App.less';
 import { Button } from 'antd';
 
-import ContainerPage from './layouts/container.js';
-
-class App extends Component {
+class Home extends Component {
   render() {
     return (
       <div className="App">
-        <ContainerPage />
+        home
+        <Button type="primary">Button</Button>
       </div>
     );
   }
 }
 
-export default App;
+export default Home;
